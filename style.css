@@ -327,11 +327,131 @@ section {
     position: relative;
 }
 
+.company-section {
+    margin-bottom: 4rem;
+    padding: 2rem;
+    background: rgb(250, 250, 250);
+    border-radius: 2rem;
+    border: rgb(163, 163, 163) 0.1rem solid;
+}
+
+.company-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgb(163, 163, 163);
+}
+
+.company-name {
+    font-size: 2rem;
+    color: rgb(53, 53, 53);
+    font-weight: 600;
+    margin: 0;
+}
+
+.job-duration {
+    color: rgb(119, 119, 119);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
 .experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.certificates-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid rgb(163, 163, 163);
+}
+
+.certificates-title {
+    font-size: 1.5rem;
+    color: rgb(53, 53, 53);
+    font-weight: 600;
     margin-bottom: 2rem;
+    text-align: center;
+}
+
+.year-section {
+    margin-bottom: 2.5rem;
+}
+
+.year-heading {
+    font-size: 1.25rem;
+    color: rgb(53, 53, 53);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    display: inline-block;
+    width: 100%;
+}
+
+.certificates-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+}
+
+.certificate-item {
+    padding: 1.5rem;
+    background: white;
+    border-radius: 1.5rem;
+    border: rgb(163, 163, 163) 0.1rem solid;
+    text-align: center;
+    transition: all 300ms ease;
+    width: 100%;
+    max-width: 280px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.cert-badge {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.certificate-item h4 {
+    color: rgb(53, 53, 53);
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    font-weight: 600;
+}
+
+.cert-date {
+    color: rgb(119, 119, 119);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.cert-btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+}
+
+.skills-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid rgb(163, 163, 163);
+}
+
+.section-subtitle {
+    font-size: 1.5rem;
+    color: rgb(53, 53, 53);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .experience-details-container {
@@ -425,6 +545,12 @@ article .icon {
 
 .email-icon{
     height: 2.5rem;
+}
+
+.phone-icon {
+    font-size: 2.5rem;
+    display: inline-block;
+    margin-right: 0.5rem;
 }
 
 /*FOOTER*/
